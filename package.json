@@ -1,0 +1,32 @@
+{
+  "name": "my_first_node_js",
+  "version": "1.0.0",
+  "description": "my first with node",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetansabe/my_first_nodejs.git"
+  },
+  "keywords": [
+    "f8",
+    "nodejs_course"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetansabe/my_first_nodejs/issues"
+  },
+  "homepage": "https://github.com/thetansabe/my_first_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
